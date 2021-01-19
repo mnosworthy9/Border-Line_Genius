@@ -21,7 +21,7 @@
             android:icon="@drawable/ic_baseline_connect_without_contact_24"
             android:title="Breathing exercises"/>
         <item
-            android:id="@+id/nav_exercise"
+            android:id="@+id/nav_sports"
             android:icon="@drawable/ic_baseline_sports_cricket_24"
             android:title="Sports"/>
         <item
