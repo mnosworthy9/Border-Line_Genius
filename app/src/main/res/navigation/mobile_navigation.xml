@@ -12,14 +12,29 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.grounded.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:id="@+id/nav_alarm"
+        android:name="com.example.grounded.ui.alarm.AlarmFragment"
+        android:label="Wake up time"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_timetable"
         android:name="com.example.grounded.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="Daily timetable"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_breathing"
+        android:name="com.example.grounded.ui.slideshow.SlideshowFragment"
+        android:label="Breathing Exercise"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_sports"
+        android:name="com.example.grounded.ui.slideshow.SlideshowFragment"
+        android:label="Sports"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_survey"
+        android:name="com.example.grounded.ui.slideshow.SlideshowFragment"
+        android:label="How are you feeling today"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>

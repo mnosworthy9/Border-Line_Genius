@@ -6,15 +6,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_baseline_access_alarm_24"
+            android:title="Wake up time" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Daily timetable" />
+        <item
+            android:id="@+id/nav_breathing"
+            android:icon="@drawable/ic_baseline_connect_without_contact_24"
+            android:title="Breathing exercises"/>
+        <item
+            android:id="@+id/nav_exercise"
+            android:icon="@drawable/ic_baseline_sports_cricket_24"
+            android:title="Sports"/>
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@drawable/ic_baseline_medical_services_24"
+            android:title="How are you feeling today?"/>
     </group>
 </menu>
