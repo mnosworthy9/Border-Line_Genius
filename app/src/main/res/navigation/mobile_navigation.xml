@@ -15,26 +15,27 @@
         android:id="@+id/nav_alarm"
         android:name="com.example.grounded.ui.alarm.AlarmFragment"
         android:label="Wake up time"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_alarm" />
 
     <fragment
         android:id="@+id/nav_timetable"
-        android:name="com.example.grounded.ui.slideshow.SlideshowFragment"
+        android:name="com.example.grounded.ui.timetable.TimetableFragment"
         android:label="Daily timetable"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_timetable" />
+
     <fragment
         android:id="@+id/nav_breathing"
-        android:name="com.example.grounded.ui.slideshow.SlideshowFragment"
+        android:name="com.example.grounded.ui.breathing.BreathingFragment"
         android:label="Breathing Exercise"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_breathing" />
     <fragment
         android:id="@+id/nav_sports"
-        android:name="com.example.grounded.ui.slideshow.SlideshowFragment"
+        android:name="com.example.grounded.ui.sports.SportsFragment"
         android:label="Sports"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_sports" />
     <fragment
         android:id="@+id/nav_survey"
-        android:name="com.example.grounded.ui.slideshow.SlideshowFragment"
+        android:name="com.example.grounded.ui.survey.SurveyFragment"
         android:label="How are you feeling today"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_survey" />
 </navigation>
