@@ -27,11 +27,16 @@ public class HomeFragment extends Fragment {
         final TextView quote = root.findViewById(R.id.text_home);
         final TextView genre = root.findViewById(R.id.text_quoteType);
         final TextView person = root.findViewById(R.id.text_personQuote);
+        final TextView title = root.findViewById(R.id.text_title);
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                quote.setText(s);
-                genre.setText(s);
+                assert s != null;
+                String[] ss = s.split(";");
+                quote.setText(ss[0]);
+                genre.setText(ss[2]);
+                person.setText(ss[1]);
+                title.setText("GROUNDED");
             }
         });
         return root;

@@ -63,26 +63,22 @@
         app:layout_constraintVertical_bias="0.129" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="400dp"
-        android:layout_height="96dp"
+        android:id="@+id/text_title"
+        android:layout_width="413dp"
+        android:layout_height="106dp"
+        android:autoSizeTextType="uniform"
         android:textColor="#660000"
-        android:textSize="50sp"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.993"
-        android:gravity="center_horizontal" />
-
+        app:layout_constraintVertical_bias="1" />
     <TextView
         android:id="@+id/text_date"
         android:layout_width="240dp"
         android:layout_height="200dp"
         android:textColor="#ffffff"
-        android:textSize="50sp"
+        android:autoSizeTextType="uniform"
         app:layout_constraintBottom_toTopOf="@+id/text_quoteType"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
